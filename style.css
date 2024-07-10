@@ -34,7 +34,7 @@ body{
     font-weight: 800;
 }
 
-.banner-container h4{
+.banner-container button{
     margin-left: auto;
     margin-right: auto;
     width: 208px;
@@ -48,7 +48,10 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .second-section-container{
@@ -74,9 +77,27 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.first-card{
+    width: 850px;
+    height: 240px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    display: flex;
+}
 .left-side-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    height: ;
+    height: 240px;
+    /* border: 2px solid purple; */
+    text-align:left
+}
+.right-side-container{
+    width: 50%;
+    height: 240px;
+    /* border: 2px solid greenyellow; */
 }
 
 
